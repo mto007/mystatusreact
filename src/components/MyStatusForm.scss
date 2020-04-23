@@ -1,0 +1,38 @@
+.icon {
+  font-size: calc(10px + 2vmin);
+
+  &.miserable {
+    color: red;
+  }
+  &.unhappy {
+    color: orange;
+  }
+  &.normal {
+    color: white;
+  }
+  &.ok {
+    color: lime;
+  }
+  &.happy {
+    color: rgb(2, 160, 2);
+  }
+}
+.mybtn {
+  background-color: lightgray;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
+.btnGroup {
+  padding-bottom: 15px;
+}
+.hop {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  z-index: -1;
+}
